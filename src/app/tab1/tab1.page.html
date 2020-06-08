@@ -1,0 +1,17 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-tittle>
+    <ion-icon name="qr-scanner"></ion-icon>
+      QR Scanner
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="ion-padding">
+    <ion-button (click)="StartScanning()" expand="full" color="darger" ></ion-button>
+  </div>
+  
+
+  <app-explore-container name="Tab 1 page"></app-explore-container>
+</ion-content>
