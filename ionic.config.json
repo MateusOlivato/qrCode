@@ -1,6 +1,7 @@
 {
-  "name": "qrCode",
+  "name": "Sensores",
   "integrations": {
+    "capacitor": {},
     "cordova": {}
   },
   "type": "angular"
